@@ -11,7 +11,7 @@ const app = express();
 
 // ✅ Set up CORS for your Vercel frontend
 app.use(cors({
-  origin: 'https://profile-frontend-omega.vercel.app', // your Vercel frontend URL
+  origin: 'profile-frontend-9d29.vercel.app', // your Vercel frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
