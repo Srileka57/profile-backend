@@ -11,10 +11,11 @@ const app = express();
 
 // ✅ Set up CORS for your Vercel frontend
 app.use(cors({
-  origin: 'profile-frontend-9d29.vercel.app', // your Vercel frontend URL
+  origin: 'https://profile-frontend-9d29.vercel.app', // Must include protocol
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
+
 
 app.use(express.json()); // Middleware to parse JSON requests
 
