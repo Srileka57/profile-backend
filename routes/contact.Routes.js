@@ -1,6 +1,6 @@
 // controllers/contact.Controller.js
 const Contact = require('../models/contact.model');
-const contactRoutes = require('./routes/contact.routes');
+//const contactRoutes = require('./routes/contact.routes');
 
 const addContact = async (req, res) => {
   try {
