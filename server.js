@@ -2,13 +2,13 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
-const contactRoutes = require('./routes/contact.Routes'); // ✅ Fix capitalization if needed
+const contactRoutes = require('./routes/contactRoutes'); // ✅ Fix capitalization if needed
 
 dotenv.config();
 connectDB();
 
 const app = express();
-
+console.log(typeof contactRoutes);
 // ✅ Set up CORS for your Vercel frontend
 app.use(cors({
   origin: 'https://profile-frontend-9d29.vercel.app', // Must include protocol

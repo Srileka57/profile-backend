@@ -1,5 +1,5 @@
 // controllers/contact.Controller.js
-const Contact = require('../models/contact.model');
+const Contact = require('../models/contactmodel');
 
 const addContact = async (req, res) => {
   try {
